@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const Room = require('./Models/room');
 const app = express();
 
 require('dotenv').config();
